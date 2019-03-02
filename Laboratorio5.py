@@ -51,8 +51,8 @@ env.run()
 tiempoPromedio = sum(listaTiempo)/proc
 print("El tiempo promedio es: ",tiempoPromedio)
 
-#desviacion = stdev(tiempoPromedio)
-#print ("La desviacion estandard es ", desviacion)
+#desviacion = stdev(listaTiempo)
+#print ("La desviación estándar es ", desviación)
 
 
 
