@@ -1,7 +1,9 @@
 #Universidad del Valle de Guatemala
-#Fernando José Garavito Ovando	18071
-#Jose Block Staackmann
+#Curso: Algoritmos y Estructuras de Datos
+#Nombre: Fernando José Garavito Ovando	 Carné: 18071
+#Nombre: Jose Gabriel Block Staackmann 	 Carné: 18935
 #Hoja de Trabajo No. 5
+
 import simpy
 import random
 from math import sqrt
