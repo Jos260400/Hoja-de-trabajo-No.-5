@@ -1,4 +1,7 @@
-
+#Universidad del Valle de Guatemala
+#Fernando José Garavito Ovando	18071
+#Jose Block Staackmann
+#Hoja de Trabajo No. 5
 import simpy
 import random
 from math import sqrt
