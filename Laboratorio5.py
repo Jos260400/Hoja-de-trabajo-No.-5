@@ -40,9 +40,9 @@ def proceso(env, cpu, ram, num_inst, num_ram):
 	
 	
 	#	devolver ram al finzalizar proceso
-
+proc = 25#cambiar de 25 a 50 a 100 a 200 para cada test 
 def process_generator(env, cpu, ram):
-    proc = 25#cambiar de 25 a 50 a 100 a 200 para cada test 
+   
     for i in range(proc):
         env.process(proceso(env, cpu, ram, random.randint(1, 10), random.randint(1, 10)))
         yield env.timeout(random.expovariate(1/10))
