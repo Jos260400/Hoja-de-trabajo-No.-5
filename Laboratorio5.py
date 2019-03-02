@@ -45,7 +45,7 @@ def process_generator(env, cpu, ram):
     
     for i in range(proc):
         env.process(proceso(env, cpu, ram, random.randint(1, 10), random.randint(1, 10)))
-        yield env.timeout(random.expovariate(1/10))
+        yield env.timeout(random.expovariate(1/1))
 env.process(process_generator(env, cpu, ram))
 env.run()
 tiempoPromedio = sum(listaTiempo)/proc
